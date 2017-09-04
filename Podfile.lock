@@ -1,0 +1,21 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.2.0)
+  - AudioKit (3.6)
+  - Hex (5.0.1)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.2.0)
+  - AudioKit (~> 3.6)
+  - Hex
+  - Toast (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: d11a4c12c6aaf704b8a3f56d179198c99f3e41e6
+  AudioKit: 7823de92f3c9570178d2347042867b6a93be1464
+  Hex: 2c757d81a2b4b6afc842458ce485c8c097ea1c79
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 752f6be7196d2257016dd7897456a6963564ad13
+
+COCOAPODS: 1.2.1

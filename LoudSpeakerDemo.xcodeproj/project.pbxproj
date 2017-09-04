@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02B90741E95DDE9000B9DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B90731E95DDE9000B9DE1 /* main.m */; };
+		D02B90771E95DDE9000B9DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B90761E95DDE9000B9DE1 /* AppDelegate.m */; };
+		D02B907A1E95DDE9000B9DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B90791E95DDE9000B9DE1 /* ViewController.m */; };
+		D02B907D1E95DDE9000B9DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02B907B1E95DDE9000B9DE1 /* Main.storyboard */; };
+		D02B907F1E95DDE9000B9DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02B907E1E95DDE9000B9DE1 /* Assets.xcassets */; };
+		D02B90821E95DDE9000B9DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02B90801E95DDE9000B9DE1 /* LaunchScreen.storyboard */; };
+		D03EFF861E986EBE0084C291 /* LoudSpeakerDemo-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EFF851E986EBE0084C291 /* LoudSpeakerDemo-Swift.swift */; };
+		D03EFFA61E99DB410084C291 /* lamp.png in Resources */ = {isa = PBXBuildFile; fileRef = D03EFFA51E99DB410084C291 /* lamp.png */; };
+		F9F9D7E4544AF4572937E3BD /* Pods_LoudSpeakerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ABBB0DA7D6FBB47A2FE69C /* Pods_LoudSpeakerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12ABBB0DA7D6FBB47A2FE69C /* Pods_LoudSpeakerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoudSpeakerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02B906F1E95DDE9000B9DE1 /* LoudSpeakerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoudSpeakerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02B90731E95DDE9000B9DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D02B90751E95DDE9000B9DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D02B90761E95DDE9000B9DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D02B90781E95DDE9000B9DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D02B90791E95DDE9000B9DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D02B907C1E95DDE9000B9DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D02B907E1E95DDE9000B9DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02B90811E95DDE9000B9DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D02B90831E95DDE9000B9DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03EFF841E986EBE0084C291 /* LoudSpeakerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoudSpeakerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		D03EFF851E986EBE0084C291 /* LoudSpeakerDemo-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoudSpeakerDemo-Swift.swift"; sourceTree = "<group>"; };
+		D03EFFA01E9900160084C291 /* LoudSpeaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoudSpeaker-Prefix.pch"; sourceTree = "<group>"; };
+		D03EFFA51E99DB410084C291 /* lamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp.png; sourceTree = "<group>"; };
+		E20B5F9D270F005F69066C24 /* Pods-LoudSpeakerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoudSpeakerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoudSpeakerDemo/Pods-LoudSpeakerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F2D3A56057F1D194FCF97DB8 /* Pods-LoudSpeakerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoudSpeakerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoudSpeakerDemo/Pods-LoudSpeakerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D02B906C1E95DDE9000B9DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9D7E4544AF4572937E3BD /* Pods_LoudSpeakerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03219E194FAC56A241E6948D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12ABBB0DA7D6FBB47A2FE69C /* Pods_LoudSpeakerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07B2590AED4990C16C2F5C9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3A56057F1D194FCF97DB8 /* Pods-LoudSpeakerDemo.debug.xcconfig */,
+				E20B5F9D270F005F69066C24 /* Pods-LoudSpeakerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D02B90661E95DDE9000B9DE1 = {
+			isa = PBXGroup;
+			children = (
+				D02B90711E95DDE9000B9DE1 /* LoudSpeakerDemo */,
+				D02B90701E95DDE9000B9DE1 /* Products */,
+				03219E194FAC56A241E6948D /* Frameworks */,
+				07B2590AED4990C16C2F5C9B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D02B90701E95DDE9000B9DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02B906F1E95DDE9000B9DE1 /* LoudSpeakerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02B90711E95DDE9000B9DE1 /* LoudSpeakerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D02B90751E95DDE9000B9DE1 /* AppDelegate.h */,
+				D02B90761E95DDE9000B9DE1 /* AppDelegate.m */,
+				D02B90781E95DDE9000B9DE1 /* ViewController.h */,
+				D02B90791E95DDE9000B9DE1 /* ViewController.m */,
+				D02B907B1E95DDE9000B9DE1 /* Main.storyboard */,
+				D02B907E1E95DDE9000B9DE1 /* Assets.xcassets */,
+				D02B90801E95DDE9000B9DE1 /* LaunchScreen.storyboard */,
+				D02B90831E95DDE9000B9DE1 /* Info.plist */,
+				D02B90721E95DDE9000B9DE1 /* Supporting Files */,
+				D03EFF851E986EBE0084C291 /* LoudSpeakerDemo-Swift.swift */,
+				D03EFF841E986EBE0084C291 /* LoudSpeakerDemo-Bridging-Header.h */,
+				D03EFFA01E9900160084C291 /* LoudSpeaker-Prefix.pch */,
+			);
+			path = LoudSpeakerDemo;
+			sourceTree = "<group>";
+		};
+		D02B90721E95DDE9000B9DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03EFFA51E99DB410084C291 /* lamp.png */,
+				D02B90731E95DDE9000B9DE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02B906E1E95DDE9000B9DE1 /* LoudSpeakerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02B90861E95DDE9000B9DE1 /* Build configuration list for PBXNativeTarget "LoudSpeakerDemo" */;
+			buildPhases = (
+				ECB593FB2EF95EC9E9DCA322 /* [CP] Check Pods Manifest.lock */,
+				D02B906B1E95DDE9000B9DE1 /* Sources */,
+				D02B906C1E95DDE9000B9DE1 /* Frameworks */,
+				D02B906D1E95DDE9000B9DE1 /* Resources */,
+				7D1165E0C95F1509E195A3B2 /* [CP] Embed Pods Frameworks */,
+				2E0C770BB0FB50F971E135DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoudSpeakerDemo;
+			productName = LoudSpeakerDemo;
+			productReference = D02B906F1E95DDE9000B9DE1 /* LoudSpeakerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02B90671E95DDE9000B9DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = luowanglin;
+				TargetAttributes = {
+					D02B906E1E95DDE9000B9DE1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = H7L43VYUJ7;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D02B906A1E95DDE9000B9DE1 /* Build configuration list for PBXProject "LoudSpeakerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02B90661E95DDE9000B9DE1;
+			productRefGroup = D02B90701E95DDE9000B9DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02B906E1E95DDE9000B9DE1 /* LoudSpeakerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02B906D1E95DDE9000B9DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B90821E95DDE9000B9DE1 /* LaunchScreen.storyboard in Resources */,
+				D03EFFA61E99DB410084C291 /* lamp.png in Resources */,
+				D02B907F1E95DDE9000B9DE1 /* Assets.xcassets in Resources */,
+				D02B907D1E95DDE9000B9DE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E0C770BB0FB50F971E135DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoudSpeakerDemo/Pods-LoudSpeakerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1165E0C95F1509E195A3B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoudSpeakerDemo/Pods-LoudSpeakerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB593FB2EF95EC9E9DCA322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D02B906B1E95DDE9000B9DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02B907A1E95DDE9000B9DE1 /* ViewController.m in Sources */,
+				D02B90771E95DDE9000B9DE1 /* AppDelegate.m in Sources */,
+				D03EFF861E986EBE0084C291 /* LoudSpeakerDemo-Swift.swift in Sources */,
+				D02B90741E95DDE9000B9DE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D02B907B1E95DDE9000B9DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02B907C1E95DDE9000B9DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D02B90801E95DDE9000B9DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02B90811E95DDE9000B9DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D02B90841E95DDE9000B9DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = H7L43VYUJ7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "52caaf21-de3d-4422-970d-641cf01ac1e3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D02B90851E95DDE9000B9DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: luo wanglin (H7L43VYUJ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: luo wanglin (H7L43VYUJ7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = H7L43VYUJ7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "52caaf21-de3d-4422-970d-641cf01ac1e3";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D02B90871E95DDE9000B9DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D3A56057F1D194FCF97DB8 /* Pods-LoudSpeakerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H7L43VYUJ7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoudSpeakerDemo",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoudSpeakerDemo/LoudSpeaker-Prefix.pch";
+				GENERATE_PROFILING_CODE = YES;
+				INFOPLIST_FILE = LoudSpeakerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luowanglin.Broadcaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoudSpeakerDemo/LoudSpeakerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "-Wno-documentation";
+			};
+			name = Debug;
+		};
+		D02B90881E95DDE9000B9DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20B5F9D270F005F69066C24 /* Pods-LoudSpeakerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: luo wanglin (H7L43VYUJ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H7L43VYUJ7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoudSpeakerDemo",
+					"$(PROJECT_DIR)/Pods",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoudSpeakerDemo/LoudSpeaker-Prefix.pch";
+				GENERATE_PROFILING_CODE = YES;
+				INFOPLIST_FILE = LoudSpeakerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luowanglin.Broadcaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoudSpeakerDemo/LoudSpeakerDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "-Wno-documentation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D02B906A1E95DDE9000B9DE1 /* Build configuration list for PBXProject "LoudSpeakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02B90841E95DDE9000B9DE1 /* Debug */,
+				D02B90851E95DDE9000B9DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02B90861E95DDE9000B9DE1 /* Build configuration list for PBXNativeTarget "LoudSpeakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02B90871E95DDE9000B9DE1 /* Debug */,
+				D02B90881E95DDE9000B9DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D02B90671E95DDE9000B9DE1 /* Project object */;
+}

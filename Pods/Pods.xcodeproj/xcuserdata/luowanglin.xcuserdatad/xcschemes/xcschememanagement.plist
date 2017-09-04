@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ActionSheetPicker-3.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Hex.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LoudSpeakerDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Toast.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3FC2E5F9225A9B09797245CF896C705F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>682C458B69A37816E38465B82FFC3756</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>965699190112DDBD9B7864D091660DBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A50ECECBE60C5DF2F596334C52279F41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

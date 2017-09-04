@@ -1,0 +1,17 @@
+//
+//  LampApp-Prefix.pch
+//  LampApp
+//
+//  Created by luowanglin on 16/9/22.
+//  Copyright © 2016年 luowanglin. All rights reserved.
+//
+#import <UIKit/UIKit.h>
+#import <Toast/UIView+Toast.h>
+#import <Hex/Hex-Swift.h>
+
+
+#ifndef LoudSpeaker_Prefix_pch
+#define LoudSpeaker_Prefix_pch
+
+
+#endif /* LoudSpeaker_Prefix_pch */
